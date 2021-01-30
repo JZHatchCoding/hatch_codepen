@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body.mainBody {
+  background: black url("https://download.wanderwolfstudios.com/newedenpatcher/Garden.png") no-repeat center fixed;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+.headerBackdrop {
+   margin: auto;
+   background-image: url("https://download.wanderwolfstudios.com/newedenpatcher/ChatbubbleBase.png");
+   height: 100px;
+   width: 600px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h2 {
+  color: white;
+  padding-top: 25px;
+  text-align: center;
+  font: 50px "Lucida Console", "Courier New", monospace;
+}
+
+.p1Backdrop {
+   margin: 10px 50px;
+   background-image: url("https://download.wanderwolfstudios.com/newedenpatcher/ChatbubbleBase.png");
+   height: 420px;
+   width: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   top: -20px;
+}
+
+.p2Backdrop {
+   margin: 10px 50px;
+   background-image: url("https://download.wanderwolfstudios.com/newedenpatcher/ChatbubbleBase.png");
+   height: 420px;
+   width: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   top: 320px;
+}
+
+p.p1 {
+  word-spacing: 10px;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font: 20px "Lucida Console", "Courier New", monospace;
+}
+
+.logoImage {
+  margin: 10px 10px;
+  background-image: url("https://download.wanderwolfstudios.com/newedenpatcher/WallpaperLogo.png");
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 150px;
+  top: -50px;
+}
+
+.gameImage {
+  margin: 10px 10px;
+  background-image: url("https://download.wanderwolfstudios.com/newedenpatcher/lf.jpg");
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 90px;
+  top: -400px;
+}
+
+.soundPlace {
+  margin: 10px 10px;
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
